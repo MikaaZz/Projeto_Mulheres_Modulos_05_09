@@ -1,0 +1,33 @@
+:root{
+    --color-yellow:#FFCE05;
+    --color-blue:#303192;
+    --color-white:#fff;
+    --color-font:#363636;
+    --color-shadow:#b6b6b6;
+    --color-lightBlue:#5254BE;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 26px;
+    margin: auto;
+    color: var(--color-white);
+}
+h2{
+    font-size: 24px;
+    margin: auto;
+    color: var(--color-blue);
+}
+p{
+    font-size: 18px;
+    margin: auto;
+    color: var(--color-font);
+}
+.divGeral{
+    overflow-x: hidden;
+    max-width: 1920px;
+}
