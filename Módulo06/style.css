@@ -16,57 +16,22 @@ h1{
     font-size: 26px;
     margin: auto;
     color: var(--color-white);
+    text-align: justify;
+    font-weight: bold;
+    
 }
 h2{
     font-size: 24px;
     margin: auto;
     color: var(--color-blue);
+    text-align: center;
 }
 p{
     font-size: 18px;
     margin: auto;
     color: var(--color-font);
+    text-align: justify;
 }
-.divGeral{
-    overflow-x: hidden;
-    max-width: 1920px;
-}
-/*Bloco 01*/
-.titleAndDescription{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.imgAndTextHeader{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    align-items: center;
-}
-.headerTitle{
-    background-color: var(--color-yellow);
-    border-radius: 0 0 25px 25px ;
-    margin: 0 2% 2% 2%;
-    text-align: center;
-    min-width: 300;
-    padding: 2%;
-}
-.headerImage{
-    max-width: 350px;
-    max-height: 350px;
-    margin-top: 2%;
-}
-.description{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-.description p{
-    text-align: left;
-}
-/*Bloco 01*/
-/*Bloco 02*/
 /*MENU BUTTON*/
 .navLock{
     display: flex;
@@ -159,10 +124,50 @@ p{
     color: var(--color-blue);
 }
 /*MENU BUTTON*/
-/*Bloco 02*/
+.divGeral{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+/*Bloco 01*/
+.titleAndDescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgAndTextHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerTitle{
+    background-color: var(--color-yellow);
+    border-radius: 0 0 25px 25px ;
+    margin: 0 2% 2% 2%;
+    min-width: 300;
+    padding: 5%;
+}
+.headerImage{
+    max-width: 350px;
+    max-height: 350px;
+    margin-top: 2%;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.description p{
+    text-align: justify;
+}
+/*Bloco 01*/
 /*Bloco 03*/
 .bloco03{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .buttonAvaliaçãoInicial{
     width: 220px;
@@ -182,9 +187,6 @@ p{
 }
 /*Bloco 03*/
 /*Bloco 04*/
-.bloco04{
-    text-align: center;
-}
 .bloco04 img{
     max-width: 350px;
     max-height: 350px;
@@ -205,6 +207,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 2% 0px;
 }
 .ebook p{
@@ -212,7 +215,9 @@ p{
 }
 .blocoAmarelo{
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
     background-color: var(--color-yellow);
     padding: 2% 0px;
@@ -248,6 +253,7 @@ p{
 }
 .tituloH5P p{
     color: var(--color-white);
+    padding-bottom: 2%;
 }
 .divH5P{
     max-width: 750px;
@@ -257,21 +263,21 @@ p{
     justify-content: center;
     margin: auto;
     flex-direction: column;
-    text-align: center;
 }
 /*Bloco 04*/
 /*Bloco 05*/
 .bloco05{
     display: flex;
     flex-direction: column;
-    text-align: center;
+}
+.bloco05 p{
+    width: 80%;
 }
 .blocoAmareloArredondado{
     display: flex;
     justify-content: center;
     background-color: var(--color-yellow);
     border-radius: 0 0 0 25px ;
-    text-align: center;
     height: 70px;
 }
 .blocoForo{
@@ -310,7 +316,6 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 .blocoAmareloFino{
     display: flex;
@@ -380,7 +385,18 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+}
+.bloco08 li{
+    width: 80%;
+    font-size: 18px;
+    color: var(--color-font);
+    text-align: justify;
+    padding: 0.8rem 0 0 0;
+    margin: auto;
+}
+.bloco08 p{
+    width: 80%;
 }
 .botaoActividade{
     display: flex;
@@ -402,17 +418,45 @@ p{
     margin: 2% 0;
 }
 .botaoActividade button:hover{
-    background-color: var(--color-yellow);
+    background-color: var(--color-white);
     color: var(--color-blue);
 }
+.blocoAmareloAtvidadePratica{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color-yellow);
+    border-radius: 25px;
+    padding: 2% 0px;
+    width: 90%;
+}
 /*Bloco 08*/
+/*Entrevista*/
+.entrevista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+}
+.entrevista p{
+    width: 80%;
+}
+.videoEntrevista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.videoEntrevista iframe{
+    border-radius: 25px;
+}
+/*Entrevista*/
 /*Bloco 09*/
 .bloco09{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 .containerAmarelo{
     background-color: var(--color-yellow);
@@ -457,7 +501,6 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 .imagemBotao{
     display: flex;
@@ -484,9 +527,6 @@ p{
 }
 /*Bloco 10*/
 /*Footer*/
-footer{
-    text-align: center;
-}
 .navBotao{
     display: flex;
     justify-content: space-around;
@@ -514,10 +554,6 @@ footer{
     .description{
         padding: 2%;
         width: 100%;
-        
-    }
-    .description p{
-        text-align: center;
     }
     .imgText{
         flex-direction: column;
@@ -526,7 +562,7 @@ footer{
         width: 100%;
         padding: 2%;
         margin: 0px;
-        text-align: center;
+
     }
     .titleAndDescription{
         flex-direction: column;
@@ -536,7 +572,7 @@ footer{
     }
     .blocoAmareloAtividades{
         flex-direction: column;
-        text-align: center;
+
     }
     .avaliacaoFinal{
         flex-direction: column;
